@@ -22,7 +22,7 @@ alu-4bit/
 │── .gitignore
 │── README.md
 
-⚡ Features
+ Features
 The ALU supports the following 8 operations controlled by a 3-bit `op` signal:
 
 Operation	Code (op)	Description
@@ -34,7 +34,7 @@ XOR	100	Bitwise XOR
 NOT	101	Bitwise Invert (on a)
 SHL	110	Shift Left
 SHR	111	Shift Right
-▶️ How to Run
+▶ How to Run
 1. Install tools: Icarus Verilog + GTKWave
    - On Ubuntu/Debian:
      sudo apt update
@@ -63,7 +63,7 @@ For Visual Studio Code,
    Compile the ALU (iverilog)
    Run the testbench (vvp)
    Open GTKWave with the waveform (sim/alu.vcd)
-📊 Sample Output
+Sample Output
 Console output (from $display in testbench):
 
 
